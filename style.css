@@ -6,7 +6,7 @@
 
 .header {
     display: flex;
-    padding: 10px 100px;
+    padding: 10px 200px;
     justify-content: space-between;
 }
 
@@ -14,4 +14,24 @@
     display: flex;
     gap: 10px;
     list-style-type: none;
+}
+
+.first-section {
+    display:flex;
+    padding: 100px 200px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.Stepan {
+    width: 300px;
+    height: auto;
+}
+
+.left {
+    width: 300px;
+}
+
+.left .right{
+    flex: 1;
 }
