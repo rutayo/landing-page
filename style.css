@@ -1,0 +1,17 @@
+.logo {
+    max-width: 100px;
+    max-height: auto;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
