@@ -35,3 +35,61 @@
 .left .right{
     flex: 1;
 }
+
+.second-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.second-section div {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: auto;
+}
+
+img {
+    flex: 1;
+    min-width: 0;
+    max-width: 200px;
+}
+
+.second-title {
+    text-align: center;
+}
+
+.third-section {
+    padding: 100px 300px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.fourth-section {
+    padding: 100px 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fourth-section div {
+    display: flex;
+}
+
+.sign-up {
+    flex-direction: column;
+    margin: 0;
+}
+
+ .button {
+        margin: 50px;
+ }
