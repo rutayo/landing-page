@@ -1,3 +1,7 @@
+body {
+    background-color: #1f2937;
+}
+
 .logo {
     max-width: 100px;
     max-height: auto;
@@ -40,6 +44,12 @@
     display: flex;
     gap: 20px;
     justify-content: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.second-section h1 {
+    text-align: center;
 }
 
 .second-section div {
@@ -61,6 +71,7 @@ img {
 
 .third-section {
     padding: 100px 300px;
+    background-color: #e5e7eb;
 }
 
 .quote {
@@ -79,6 +90,7 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: white;
 }
 
 .fourth-section div {
@@ -93,3 +105,5 @@ img {
  .button {
         margin: 50px;
  }
+
+ 
